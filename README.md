@@ -65,15 +65,15 @@
 > 	ui = auto
 > 
 > [diff]
->  tool = vscode-diff
+>  	tool = vscode-diff
 > [difftool]
->  prompt = false
+>  	prompt = false
 > [difftool "vscode-diff"]
->  cmd = code --wait --diff $LOCAL $REMOTE
+>  	cmd = code --wait --diff $LOCAL $REMOTE
 > [merge]
->  tool = vscode-merge
+> 	tool = vscode-merge
 > [mergetool "vscode-merge"]
->  cmd = code --wait $MERGED
+>  	cmd = code --wait $MERGED
 > ```
 
 
